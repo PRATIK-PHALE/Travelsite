@@ -301,9 +301,30 @@ button {
         margin: 15px;
         flex-shrink: 3;
     }
+.box2{
+    align-items: stretch;
+}
+    /* .box2-1{
+     border: red;
+        flex-shrink: 3;
+    } */
+}
+@media only screen and (max-width:765px) {
 
-    .box2 {
-        margin: 12px;
+    /* header */
+    .logo {
+        margin: 20px;
+    }
+
+    .box {
+        margin: 15px;
         flex-shrink: 3;
     }
+.box2{
+    align-items: stretch;
+}
+    /* .box2-1{
+     border: red;
+        flex-shrink: 3;
+    } */
 }
